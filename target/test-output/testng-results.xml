@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DockerSelenium" duration-ms="14046" started-at="2021-11-30T14:39:59Z" finished-at="2021-11-30T14:40:13Z">
+    <groups>
+    </groups>
+    <test name="GoogleSearchPageTest1" duration-ms="9937" started-at="2021-11-30T14:39:59Z" finished-at="2021-11-30T14:40:09Z">
+      <class name="com.docker.testCases.GoogleSearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.GoogleSearchTest@45c8e616]" name="setUp" is-config="true" duration-ms="5807" started-at="2021-11-30T20:09:59Z" finished-at="2021-11-30T20:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPageTest(java.lang.String, int)[pri:0, instance:com.docker.testCases.GoogleSearchTest@45c8e616]" name="searchPageTest" duration-ms="4023" started-at="2021-11-30T20:10:05Z" finished-at="2021-11-30T20:10:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.GoogleSearchTest@45c8e616]" name="tearDown" is-config="true" duration-ms="101" started-at="2021-11-30T20:10:09Z" finished-at="2021-11-30T20:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.docker.testCases.GoogleSearchTest -->
+    </test> <!-- GoogleSearchPageTest1 -->
+    <test name="GoogleSearchPageTest2" duration-ms="14046" started-at="2021-11-30T14:39:59Z" finished-at="2021-11-30T14:40:13Z">
+      <class name="com.docker.testCases.GoogleSearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.GoogleSearchTest@6bdf28bb]" name="setUp" is-config="true" duration-ms="9375" started-at="2021-11-30T20:09:59Z" finished-at="2021-11-30T20:10:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchPageTest(java.lang.String, int)[pri:0, instance:com.docker.testCases.GoogleSearchTest@6bdf28bb]" name="searchPageTest" duration-ms="4031" started-at="2021-11-30T20:10:08Z" finished-at="2021-11-30T20:10:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.GoogleSearchTest@6bdf28bb]" name="tearDown" is-config="true" duration-ms="639" started-at="2021-11-30T20:10:12Z" finished-at="2021-11-30T20:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.docker.testCases.GoogleSearchTest -->
+    </test> <!-- GoogleSearchPageTest2 -->
+  </suite> <!-- DockerSelenium -->
+</testng-results>
