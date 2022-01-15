@@ -20,32 +20,4 @@
       <class name="com.docker.testCases.GoogleSearchTest"/>
     </classes>
   </test> <!-- GoogleSearchPageTest2 -->
-  <test name="GoogleSearchPageTest1(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <parameter name="index" value="3"/>
-    <parameter name="keyword" value="docker"/>
-    <classes>
-      <class name="com.docker.testCases.GoogleSearchTest">
-        <methods>
-          <include name="searchPageTest"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.docker.testCases.GoogleSearchTest -->
-    </classes>
-  </test> <!-- GoogleSearchPageTest1(failed) -->
-  <test name="GoogleSearchPageTest2(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
-    <parameter name="index" value="2"/>
-    <parameter name="keyword" value="selenium"/>
-    <classes>
-      <class name="com.docker.testCases.GoogleSearchTest">
-        <methods>
-          <include name="searchPageTest"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.docker.testCases.GoogleSearchTest -->
-    </classes>
-  </test> <!-- GoogleSearchPageTest2(failed) -->
 </suite> <!-- Failed suite [DockerSelenium] -->

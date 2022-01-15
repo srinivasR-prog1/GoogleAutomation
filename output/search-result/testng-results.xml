@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="DockerSelenium" duration-ms="14046" started-at="2021-11-30T14:39:59Z" finished-at="2021-11-30T14:40:13Z">
+  <suite name="DockerSelenium" duration-ms="23898" started-at="2022-01-15T18:02:26Z" finished-at="2022-01-15T18:02:50Z">
     <groups>
     </groups>
-    <test name="GoogleSearchPageTest1" duration-ms="9937" started-at="2021-11-30T14:39:59Z" finished-at="2021-11-30T14:40:09Z">
+    <test name="GoogleSearchPageTest1" duration-ms="11918" started-at="2022-01-15T18:02:26Z" finished-at="2022-01-15T18:02:38Z">
       <class name="com.docker.testCases.GoogleSearchTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.GoogleSearchTest@45c8e616]" name="setUp" is-config="true" duration-ms="5807" started-at="2021-11-30T20:09:59Z" finished-at="2021-11-30T20:10:05Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.GoogleSearchTest@5e025e70]" name="setUp" is-config="true" duration-ms="7655" started-at="2022-01-15T18:02:26Z" finished-at="2022-01-15T18:02:34Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchPageTest(java.lang.String, int)[pri:0, instance:com.docker.testCases.GoogleSearchTest@45c8e616]" name="searchPageTest" duration-ms="4023" started-at="2021-11-30T20:10:05Z" finished-at="2021-11-30T20:10:09Z">
+        <test-method status="PASS" signature="searchPageTest(java.lang.String, int)[pri:0, instance:com.docker.testCases.GoogleSearchTest@5e025e70]" name="searchPageTest" duration-ms="3971" started-at="2022-01-15T18:02:34Z" finished-at="2022-01-15T18:02:38Z">
           <params>
             <param index="0">
               <value>
@@ -34,15 +34,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.GoogleSearchTest@45c8e616]" name="tearDown" is-config="true" duration-ms="101" started-at="2021-11-30T20:10:09Z" finished-at="2021-11-30T20:10:09Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.GoogleSearchTest@5e025e70]" name="tearDown" is-config="true" duration-ms="288" started-at="2022-01-15T18:02:38Z" finished-at="2022-01-15T18:02:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.docker.testCases.GoogleSearchTest -->
     </test> <!-- GoogleSearchPageTest1 -->
-    <test name="GoogleSearchPageTest2" duration-ms="14046" started-at="2021-11-30T14:39:59Z" finished-at="2021-11-30T14:40:13Z">
+    <test name="GoogleSearchPageTest2" duration-ms="11952" started-at="2022-01-15T18:02:38Z" finished-at="2022-01-15T18:02:50Z">
       <class name="com.docker.testCases.GoogleSearchTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.GoogleSearchTest@6bdf28bb]" name="setUp" is-config="true" duration-ms="9375" started-at="2021-11-30T20:09:59Z" finished-at="2021-11-30T20:10:08Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.docker.testCases.GoogleSearchTest@2f7c7260]" name="setUp" is-config="true" duration-ms="7129" started-at="2022-01-15T18:02:38Z" finished-at="2022-01-15T18:02:45Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searchPageTest(java.lang.String, int)[pri:0, instance:com.docker.testCases.GoogleSearchTest@6bdf28bb]" name="searchPageTest" duration-ms="4031" started-at="2021-11-30T20:10:08Z" finished-at="2021-11-30T20:10:12Z">
+        <test-method status="PASS" signature="searchPageTest(java.lang.String, int)[pri:0, instance:com.docker.testCases.GoogleSearchTest@2f7c7260]" name="searchPageTest" duration-ms="4013" started-at="2022-01-15T18:02:45Z" finished-at="2022-01-15T18:02:49Z">
           <params>
             <param index="0">
               <value>
@@ -69,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchPageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.GoogleSearchTest@6bdf28bb]" name="tearDown" is-config="true" duration-ms="639" started-at="2021-11-30T20:10:12Z" finished-at="2021-11-30T20:10:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.docker.testCases.GoogleSearchTest@2f7c7260]" name="tearDown" is-config="true" duration-ms="809" started-at="2022-01-15T18:02:49Z" finished-at="2022-01-15T18:02:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
